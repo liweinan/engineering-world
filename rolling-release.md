@@ -24,7 +24,7 @@
 
 比如Arch Linux，可以说对于Linux初学者是非常不友好的，安装方式及其原始，配置工具及其简陋。
 
-## 阿男是Fedora社区的commiter，所以使用Fedora Rawhide。所谓Fedora Rawhide，就是Fedora的rolling release，里面就是所有Fedora最新的包。一般Fedora主要版本的发布，都是从Rawhide里面cut出来一个snapshot，在此基础上作集成和发布的工作，形成一个新版本。
+阿男是Fedora社区的commiter，所以使用Fedora Rawhide。所谓Fedora Rawhide，就是Fedora的rolling release，里面就是所有Fedora最新的包。一般Fedora主要版本的发布，都是从Rawhide里面cut出来一个snapshot，在此基础上作集成和发布的工作，形成一个新版本。
 
 Arch Linux就更激进，根本没有版本，只提供一个rolling release。
 
