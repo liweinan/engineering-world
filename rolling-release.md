@@ -6,13 +6,13 @@
 
 但是Rolling Release就要求系统不断地更新，没有明确版本，Arch Linux就是这样，它里面的各个component总是在不停地更新。
 
-这样做有什么好处？
+## 这样做有什么好处？
 
 首先我们总能获得最新的软件，因为没有明确的发行版本，因此整个系统的每一个comopnent都在随时更新。
 
 然后我们不用考虑从一个版本升级到下一个版本，我们的系统本身就没有版本一说，所以系统里面每一个组件都是随时upgrade，没有什么整体升级到下一个版本的说法。
 
-那么Rolling Release的坏处呢？
+## 那么Rolling Release的坏处呢？
 
 首先就是不可能做集成测试的。既然没有了具体的版本，那么也没法测试这个版本下的系统所有组件之间的互相兼容性。很可能我们升级了一个component，导致另外一个component就不可用了。
 
@@ -24,7 +24,7 @@
 
 比如Arch Linux，可以说对于Linux初学者是非常不友好的，安装方式及其原始，配置工具及其简陋。
 
-阿男是Fedora社区的commiter，所以使用Fedora Rawhide。所谓Fedora Rawhide，就是Fedora的rolling release，里面就是所有Fedora最新的包。一般Fedora主要版本的发布，都是从Rawhide里面cut出来一个snapshot，在此基础上作集成和发布的工作，形成一个新版本。
+## 阿男是Fedora社区的commiter，所以使用Fedora Rawhide。所谓Fedora Rawhide，就是Fedora的rolling release，里面就是所有Fedora最新的包。一般Fedora主要版本的发布，都是从Rawhide里面cut出来一个snapshot，在此基础上作集成和发布的工作，形成一个新版本。
 
 Arch Linux就更激进，根本没有版本，只提供一个rolling release。
 
