@@ -34,13 +34,13 @@
 
 [^2]: https://fedoraproject.org/wiki/Releases/Rawhide
 
-Arch Linux就更激进，根本没有版本，只提供一个rolling release。
+Arch Linux就更激进，根本没有周期性发行的固定版本，只提供一个rolling release。
 
 既然没有集成，也就没什么稳定性可言，当然Arch Linux和Fedora Rawhide其实都挺稳定的，但是不可能在生产环境，原因有这些：
 
 首先生产环境里面不可能只考虑所有的软件都是最新的，往往生产环境要求某个软件是某个特定版本，不能老变，这是为了稳定性。
 
-还有就是生产环境对软件安全性有高要求，可能最新的版本里面有安全漏洞，所以必须要求某些软件稳定在特定的version。
+还有就是生产环境对软件安全性有高要求，可能最新的版本里面有安全漏洞，所以必须要求某些软件稳定在特定的version。而固定发行版本当中，每一个component的主要版本不会变化，而是会有minor version的升级，这种升级往往不会破坏兼容性，而是给稳定的版本不断打补丁。当然固定版本的维护会增加人力成本。
 
 Rolling release不考虑这些，就是一股脑更新各个component，不断把最新的软件放进来。
 
