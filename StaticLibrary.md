@@ -31,7 +31,7 @@ lib1.c  lib1.o
 $ nm lib1.o
 0000000000000000 T hello
                  U puts
-```bash
+```
 
 可以看到`lib1.o`里面已经有了`hello`函数，但是`hello`函数里面调用`printf`函数，而`printf`函数是由`libc`库提供的，所以这个`.o`文件如果不和`libc`库做连接，它就没法在执行的时候找到`printf`的实现。
 
