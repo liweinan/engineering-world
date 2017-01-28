@@ -16,6 +16,7 @@ Disassembly of section .text:
    4:	bf 00 00 00 00       	mov    $0x0,%edi
 ```
 
-可以看到，`lib1.o`的`file format`是`elf64-x86-64`，验证了我们的分析推测。
+可以看到，`lib1.o`的`file format`是`elf64-x86-64`，验证了我们的分析推测。接下来说说`.a`文件，`.a`文件就是`.o`文件的一个大包。假如我们有多个`.o`文件，那么我们可以使用`ar`命令把多个`.o`文件打包成一个`.a`文件。`ar`命令的`man page`如下：
 
-接下来说说`.a`文件，`.a`文件是`.o`文件的一个大包。
+![](imgs/weli@fedora/~-projs-engineering-world-codes_006.png)
+
