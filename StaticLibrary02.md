@@ -52,7 +52,7 @@ $ ar r lib.a lib1.o lib2.o
 ar: creating lib.a
 ```
 
-这样我们就得到了`lib.a`，里面打包了`lib1.o和`lib2.o`。我们可以用`ar`命令查看`lib.a`里面打包的文件：
+这样我们就得到了`lib.a`，里面打包了`lib1.o`和`lib2.o`。我们可以用`ar`命令查看`lib.a`里面打包的文件：
 
 ```bash
 $ ar tv lib.a
